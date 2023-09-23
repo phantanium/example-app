@@ -7,7 +7,7 @@
                 <h2>Daftar Nama Customer</h2>
             </div>
             <div class="pull-right">
-                <a class="btn btn-success" href="{{ route('customers.create') }}"> Create New Product</a>
+                <a class="btn btn-primary" href="{{ route('customers.create') }}"> Create New Customer</a>
             </div>
         </div>
     </div>
@@ -48,7 +48,7 @@
                     @csrf
 
                     @method('DELETE')
-                    <button type="submit" class="btn btn-danger">Delete</button>
+                    <button type="submit" class="btn btn-danger" onclick="return confirm('Data akan dihapus, Yakin?')">Delete</button>
                 </form>
             </td>
 

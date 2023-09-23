@@ -15,15 +15,15 @@ class CustomersTableSeeder extends Seeder
     public function run(): void
     {
         Customer::create([
-            'name' => "Fahmi",
-            'phone_number' => "0812121231",
-            'email' => "lupanama@gmail.com",
+            'name' => "Naufal",
+            'phone_number' => "08131231",
+            'email' => "akasldk a@gmail.com",
             'gender' => "Laki-laki",
         ]);
         Customer::create([
-            'name' => "Rina",
-            'phone_number' => "0812121231",
-            'email' => "lupanama@gmail.com",
+            'name' => "nose",
+            'phone_number' => "0123121231",
+            'email' => "lukjaslkjda@gmail.com",
             'gender' => "Laki-laki",
         ]);
     }
